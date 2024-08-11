@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  #poetry {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
+    font-style: italic;
+    display: none; /* Initially hidden */
+  }
+
+  #text {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  #changeTextButton {
+    padding: 12px 24px;
+    font-size: 18px;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #changeTextButton:hover {
+    background-color: #2980b9;
+  }
